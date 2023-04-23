@@ -1,0 +1,112 @@
+---------------------------------------#User Management Commands--------------------------------------
+
+who - The who command is used to find time of last system boot, current run level of system
+
+whoami - It displays username of the ument user when this command is invoked
+
+su - It allows you to run a shell as another user 
+
+sudo - (super user do) is used as a prefix of some command that only super user are allowed to run.
+
+Login - login is used when signing onto a system. It can compat text is com can also be used to switch from one user to another at any time...
+
+logout - logout commands allow you to programmatically logout from your session.
+
+exit- It is used to change the user account passwords. 
+
+passwd - It is used to change the user account passwords
+
+uceradd/adduger - it is used to add user accounts to your system 
+
+usermod = usermod or modify user is a command that is used to change the properties of a user through the command line
+
+ucerdel files. - it is used to delete a user account and files
+
+groupadd - It creates a new group account using the specified on cmd and default values from system
+
+group del - It is used to delete an existing group
+
+admini - it is used to administer the /endgroup for contain group information.
+
+groupmod- it is used to modify or change the exit group on Linux system.
+
+chown - To change a file's ownership, directory or link for a user or group.
+
+chage - It is used to view & change user password
+
+charp-to change group ownership of a file or dir
+
+chfn -  it is used to change an username and any details easily
+
+___________________________________________________________________________________________________________
+___________________________________________________________________________________________________________
+
+---------------------------------------------#File Management Commands------------------------------------
+
+ls- The ls is the list command in linux. It will show the full list or content of your directory.
+
+cd - Linux col commands are used to change the current. working directory. ie. in which the current user is working. It stands for 'change directory.
+
+pwd - It stands for Print Working Directory. It prints the path of the working directory starting from the root.
+
+cat - cat (concatenate) command is very frequently used. in Linux. It reads data from file and gives content as the output.
+
+mkdir - it stands for 'make directory. You can create a directory wherever you want in your system.
+
+rmdix -The command is used to delete a directory. It will not be able to delete a directory including a sub-directory
+
+rm - rm command is used to remove objects such as files, directories from the file system.
+
+cp - cp stands for copy. This command is used to files or group of files to a different directory
+
+my - my stands for move. It is used to move on more files or directories from one page to another file system
+
+chmod - it is used to change the access permiss of files and directories. it stands for change for ------------- It cannot change the permission of symbolic
+
+wc - it stands for word count Helps in counting lines, words and characters in a file. It display number of lines, words or characters in a file
+
+piping - A pipe is a form of redirection. It is used to combine two or more commands and are used input/output concepts.
+
+Predirection- Redirection can be defined as changing the way from where commands read input to where command sends output i
+
+grep 1- The grep filter searches a file for a -------------- pattern of characters and displays all lines the that pattern
+
+tr - It is used for translating or deleting stands for translate.
+
+echo - It is used to translating displaying line of text string that are passed as an arguement.
+
+sort - sort is a command uced to sort a file, arranging the records in a particular order.
+
+head - It is the complementary of tail command. It prints the top N number of data of the given input.
+
+tail- it is the complementary of head command. It prints the top N number of data of given input.
+
+diff - diff stands for difference, it is used to display the difference in files by comparing the line by line
+
+comm - the comm command compares two files or streams
+
+less - it is a lunix utility that can be used to read the contents of a file 
+
+more - it is used to view the rest files in the command prompt
+
+File - It is used to determine the file type. it does not care about the extension used
+
+type - it is used to describe how its arguement would be translated if used as commands.
+
+split it is used. to split large files into small types. It splites the file into 1000 lines per file
+
+cmp - it is used to compare two files byte by byte
+
+far - far it stands for tape archive is used to create archive and extract the archive files
+
+find - It is a command line utility for walking a hierarchy
+
+vim - It is a text editor that is upwards compatilibility. It can be used to edit all kinds of plain text
+
+grip - it compresses files. Each single file is compressed to into a single file.
+
+nzipz- It is used to compress and decompress files i.e helps in binding the files into a single file which takes less storage space as the original to take
+
+unzip - it lists, tests or extracts files from archive in the zip format
+
+Locate - it is used to locate the files by name better and faster.

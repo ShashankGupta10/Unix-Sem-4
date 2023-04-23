@@ -1,25 +1,49 @@
 echo - display the line of text
+
 clear - clear terminal screen
+
 exit -  exit the shell where it is currently running
+
 date - displaying system date and time
+
 time - prints a summary of real time user CPU and system CPU time spent by executing a command which it terminates
+
 uptime - used to find out how long the system is active
+
 cal - cal command is a calendar commandin Linux which used to see a calendars of a specific month or a whole year
+
 cat - cat command reads data from the file and gives content as the output
+
 tty - points the file name of the terminal connected to the standard input
+
 man - display the user manual of of any command that we can run on the terminal
+
 which - it is used to locate the executable filesn assosciated with the given command by searching in the fast environment variable
+
 history - it is used to view the previously executed commands
+
 id - command to find out the user and group names and numeric id's of current user or any other user in the server
+
 pwd - prints the path of the working directory
+
 whoami - displays username of the current user
+
 ping - used to check internet connectivity between host and server/host
+
 ifconfig - used to configure the kernel-resident network interface
+
 pr - prepare a file for printing by adding suitable footers, headers and formatting text
+
 lp - 2t arranges for files specified by the files parameters and their assosciated information to be printed by a line printer
+
 lpr - it submits files for printing. Files named on the command line are sent to the named printer
+
 lpstat - It displays states information about the current classes and printers when run with no arguements, lpstat will list queued by the current users
+
 lpq - it shows the current print queue status on the name printed 
+
 cancel - It cancels existing print jobs. The -a option will remove all jobs from the specified destination
+
 mail - It is a command line utility that allows us to send emails from the command line
+
 lprm - This command in linux cancels out the print jobs that have been queued for printing

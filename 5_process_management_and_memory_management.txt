@@ -1,0 +1,48 @@
+# Process Management
+
+ps - displays information about all processes active on system
+
+pstree - displays information regarding active process in tree alignment
+
+nice - used to set priority of process which affects execution and CPU time allotment
+
+kill - the kill command sends a signal to a process which can be used to modify its behaviour
+
+pkill - terminates process which is specified
+
+killall - kill all processes with stated name
+
+xkill - converts the mouse pointer to 'x' when a process window is selected and it is killed
+
+bg - it is used to bring a background process to foreground. When a process is not running in the background, it is not associated with terminal windows
+
+fg - used to send a process to background 
+
+pgrep - it is used in search for process based on their name or other parameters
+
+renice - the renice command is used to change priority of a running process. It can be used to increase and decrease priority of process
+
+
+# Memory Management
+
+
+
+free - this is used to display the amount of free and used memory in system
+
+proc/meminfo - this file provides detailed information about the system memory used
+
+top - the top command displays real-time information about systems process and their usage including memory usage
+
+htop - htop is an interactive version of the top command that provides a more detailed view of their resource usage, including memory usage
+
+df - the df command is used to display information about the file system mounted on system including the amount of free and used disk space
+
+du - the du command provides information about the files and directors on the system
+
+vmstat - it provides information about the system's virtual memory usage, including information about systems
+
+demicode - it is used to display detailed information about systems memory and memory configuration
+
+sar - this command is used to connnect and repeat system resources usage over that. It can be used to track system memory usage
+
+pagesize - it is used to display the size of a memory page on system. This can be useful to understand how memory and spar is allocated
