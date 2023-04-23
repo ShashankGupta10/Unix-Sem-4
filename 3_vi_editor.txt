@@ -1,0 +1,52 @@
+Command mode -  when vi starts up, it is in command mode. This mode is where vi interprets any characters we type as commands.
+                This does not display them in windows. To enter into command mode, from any other mode, it requires pressing Esc key.
+
+Insert Mode - This mode enables you to insert text into file. To come in insert mode you simply type 'i'.
+            To get out of insert mode, press the ESC key.
+
+Lost Line Mode - Lost Line mode is invoked by typing a color [:], while vi is in command mode. 
+                 The cursor will jump to the last line of the screen and vi will wait for command
+
+
+
+// commands
+
+commands and their description.
+
+vi -r filename: opens an existing file in read-only
+vi filename: Creates a new file if it already does not exist otherwise, opens exiting file..
+
+#Moving with a file (Navigation)
+
+K: Moves the cursor up and line.
+j: Moves the cursor down one line.
+h: Moves the cursor to the left one character position.
+l: Moves the cursor to the right one character position
+
+#Editing and Inserting in files.
+
+i: Incerts text file before artent uns or location la
+I: Inserts text at beginning of ument time.
+a: Inserts text after current cursor location...
+A: Inserts text at the end of the current line.
+o: Creates a new line for text entry below cursor
+O: Creates a new line for text entry above cursor
+
+#Deleting characters
+
+ow: Deletes from the current cursor location.
+D: Deletes from the cursor position to the end of the file
+dd: Deletes the line the cursor is on
+
+
+#Copy and Paste commands
+
+Yy: Copies the current line
+p: Puts the copied text.
+P: Puts the wanted text before the curcor.
+
+#save and Exit commands.
+
+q: quit
+q!: Quit without saving changes:i.e:.. discard changes
+wq: write & quit (save and quit)
