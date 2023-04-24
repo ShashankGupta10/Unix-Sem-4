@@ -1,15 +1,18 @@
-#Create a student file with roll no, batch, class, username, middle name, first name, aadhar number with mobile number.
-#Display the data file with 10 students.
-#SED command to display 1st four lines from data lines command
+101 Aditya 0 14/11/2000 current
+102 Anil 10000 20/05/2011 saving
+103 Naman0 20/08/2009 current
+104 Ram 10000 15/08/2010 saving
+105 Jyotsna 5000 16/06/2012 saving
+106 Mukesh 14000 20/12/2009 Current
+107 Vishal 14500 30/11/2011 saving
+108 Chirag 0 15/12/2012 Current
+109 Arya 16000 14/12/2010 Current
+110 Priya 130 16/11/2009 Saving	
 
-$sed '4eg' ./students.txt
+#save this as a bank.lst then 
 
+sed -n 'p' bank.lst
 
-#  Display 8th and 9th line of the data file
+sed '3q' bank.lst
 
-$sed -n '8.9p' ./students.txt
-
-
-#Create a file S22 that which conatins a record of students belonging to bat6ch S22
-
-$sed -n '11(S22)/p' ./students.txt > S22.data
+sed '3p' bank.lst
