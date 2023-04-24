@@ -16,3 +16,5 @@ sed -n 'p' bank.lst
 sed '3q' bank.lst
 
 sed '3p' bank.lst
+
+sed -n '/\(10000\)/p' bank.lst
