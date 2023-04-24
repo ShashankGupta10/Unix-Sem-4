@@ -22,3 +22,14 @@ if (exists $students {int($num)}) {
 else {
     print "Student info is not recorded\n";
 }
+
+#----------------------------------------------------------------------------------------------------
+#Program to print multiplication table
+
+print "Enter a no ";
+$num=<>;
+chomp($num);
+for ($i=1; $i<=10; $i++){
+    $result = int($num*$i);
+    print "$num*$i=$result\n";
+}
