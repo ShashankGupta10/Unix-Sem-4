@@ -2,11 +2,10 @@
 
 echo "Enter your roll number"
 read rollNo
-echo "Power table of $rollNo"
-for((i = 1; i <= 5; i++))
+for((i=1;i<= 5;i++))
 do
-power = $((rollNo**i))
-echo "$rollNo ^ $i * $power"
+power=$((rollNo**i))
+echo "$rollNo^$i =$power"
 done
 
 #Run-command: chmod 775 powertable.sh
