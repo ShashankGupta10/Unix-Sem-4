@@ -16,12 +16,11 @@ echo "Area: $area"
 # Count number of lines, words and characters in a file
 
 
-lines = 'wc -l < filename'
-words = 'wc -w < filename'
-chars = 'wc -c < filename'
-
-echo "Number of lines: $lines"
-echo "Number of words: $words"
-echo "Number of characters: $chars"
+echo " no of bytes"
+wc -c stu.txt
+echo "no of lines"
+wc -l stu.txt
+echo "no of words"
+wc -w stu.txt
 
 #Run-command: $chmod 774 studentProf.sh
