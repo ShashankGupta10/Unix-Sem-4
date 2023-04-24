@@ -18,19 +18,35 @@ done
 #Create a program which willplay first name says hello. 
 #Complete it usong Vcc and execute it.
 
-echo "Enter your middle name"
-read middle_name
-echo "Enter your first name"
-read first_name
-mkdir $middle_name
-touch $fastname.c
-cat >$first_name.c <<DF
+#!/bin/bash
 
+echo "Enter your middle name: "
+read middle_name
+echo "Enter your first name: "
+read first_name
+echo "Enter your surname: "
+read surname
+
+# Create a directory with surname as the name
+mkdir "$surname"
+
+# Move into the newly created directory
+cd "$surname"
+
+# Create a C source file
+touch "${first_name}.c"
+
+# Write the C code to display a message
+cat > "${first_name}.c" << EOF
 #include<stdio.h>
 int main(){
-    printf("$first_name says hello");
+    printf("\\nGreetings from ${first_name}\\n");
     return 0;
 }
 EOF
-Vcc $first_name.c 0$first_name.exe
-./first_name.exe
+
+# Compile the C code
+gcc "${first_name}.c" -o "${first_name}"
+
+# Run the executable
+./"${first_name}"
