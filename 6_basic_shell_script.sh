@@ -4,10 +4,10 @@ echo "Enter the length of the rectangle"
 read L
 echo "Enter breadth"
 read B
-let area = "$L * $B"
-let peri = "2 * ($L + $B)"
+area=$(($L * $B))
+peri=$((2 * ($L + $B)))
 echo "Perimeter: $peri"
-echo "Area: $area"
+echo "Area: $area"
 
 
 #Run-command: $chmod 714 rectangle.sh
